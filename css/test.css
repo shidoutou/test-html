@@ -39,3 +39,38 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
+
+/* 学生登録 */
+
+
+.button-container {
+  text-align: center;
+  margin-top: 20px; /* 按钮垂直间距 */
+}
+
+button {
+  margin: 0 10px; /* 按钮之间的水平间距 */
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* 垂直间距*/
+}
+
+.form-row {
+  width: 40%; /* 宽度间距 */
+}
+
+label {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.beizhu {
+  display: flex;
+  margin-top: 20px;
+}
+
+

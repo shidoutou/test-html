@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/test.css">
+</head>
+<body>
+    <div class="center-container">
+        <h1 id="title">学生登録</h1>
+        <form id="studentForm">
+          <div class="form-row">
+              <div class="form-group">
+                  <label for="name">姓名：</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="class">班级：</label>
+                  <input type="text" id="class" name="class" required>
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group">
+                  <label for="studentId">学号：</label>
+                  <input type="text" id="studentId" name="studentId" required>
+              </div>
+              <div class="form-group">
+                  <label for="age">年龄：</label>
+                  <input type="number" id="age" name="age" required>
+              </div>
+          </div>
+          <div class="form-xingbie">
+              <label for="gender">性别：</label>
+              <select id="gender" name="gender">
+                  <option value="male">男</option>
+                  <option value="female">女</option>
+              </select>
+          </div>
+
+          <div class="beizhu">
+            <label for="notes">备注：</label>
+            <textarea id="notes" name="notes" rows="12" cols="70"></textarea>
+        </div>
+
+
+          <div class="button-container">
+            <button type="submit">クリア</button>
+            <button type="button" id="cancelBtn">登録</button>
+        </div>
+      </form>
+      
+        
+</body>
+</html>
