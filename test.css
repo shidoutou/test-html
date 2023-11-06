@@ -1,0 +1,35 @@
+table {
+  /* border-collapse: collapse; /* 可选，但通常会提供更好的表格无边框外观 */
+  border: none;
+  width: 100%;
+}
+  
+th, td {
+  border: none;
+}
+
+#title {
+  background-color:rgba(0, 102, 255, 0.579);
+}
+
+thead tr {
+  background-color:rgba(85, 255, 0, 0.649)
+}
+
+tr td {
+  text-align: center
+}
+
+.input-group span {
+  margin-right: 3em; /* 与父元素的字体大小相关 */
+}
+
+.input-group {
+  margin-left: 3em;
+  margin-bottom: 1em;
+}
+
+button {
+  width: 10em;
+  margin-left: 1em;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>学生信息表</title>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="search.js"></script>
+</head>
+<body>
+    <h1 id="title">
+        学生情报
+    </h1>
+    <div>
+        <div class="input-group">
+            <span>姓名：<input type="text"></span>
+            <span>性别：<input type="text"></span>
+        </div>
+        <div class="input-group">
+            <span>学号：<input type="text"></span>
+            <span>班级：<input type="text"></span>
+            <button id="searchBtn">检索</button>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 5%;">全选<input type="checkbox" id="selectAll"></th>
+                <th style="width: 5%;">No</th>
+                <th style="width: 10%;">学号</th>
+                <th style="width: 10%;">姓名</th>
+                <th style="width: 10%;">性别</th>
+                <th style="width: 10%;">班级</th>
+                <th style="width: 10%;">年龄</th>
+                <th style="width: auto;text-align: left;">备注</th>
+            </tr>
+        </thead>
+        <tbody id="student-tbody">
+            <!-- <tr>
+                <td><input type="checkbox"></td>
+                <td>1</td>
+                <td>12345</td>
+                <td>xxxxx</td>
+                <td>男</td>
+                <td>123</td>
+                <td>20</td>
+                <td style="text-align: left;">备注1</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>2</td>
+                <td>12345</td>
+                <td>xxxxx</td>
+                <td>女</td>
+                <td>123</td>
+                <td>18</td>
+                <td style="text-align: left;">备注2</td>
+            </tr> -->
+        </tbody>
+    </table>
+</body>
+</html>

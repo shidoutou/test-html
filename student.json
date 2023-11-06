@@ -1,0 +1,85 @@
+{
+  "students":[
+    {
+      "id": "001",
+      "name": "张三",
+      "gender": "男",
+      "class": "1班",
+      "age": 20,
+      "remarks": "优秀学生"
+    },
+    {
+      "id": "002",
+      "name": "李四",
+      "gender": "男",
+      "class": "2班",
+      "age": 19,
+      "remarks": "篮球队队员"
+    },
+    {
+      "id": "003",
+      "name": "王五",
+      "gender": "男",
+      "class": "1班",
+      "age": 18,
+      "remarks": "学生会成员"
+    },
+    {
+      "id": "004",
+      "name": "赵六",
+      "gender": "女",
+      "class": "2班",
+      "age": 20,
+      "remarks": "艺术特长生"
+    },
+    {
+      "id": "005",
+      "name": "周七",
+      "gender": "女",
+      "class": "3班",
+      "age": 21,
+      "remarks": "志愿者"
+    },
+    {
+      "id": "006",
+      "name": "吴八",
+      "gender": "男",
+      "class": "3班",
+      "age": 22,
+      "remarks": "学术优秀"
+    },
+    {
+      "id": "007",
+      "name": "郑九",
+      "gender": "女",
+      "class": "1班",
+      "age": 19,
+      "remarks": "社团负责人"
+    },
+    {
+      "id": "008",
+      "name": "王十",
+      "gender": "男",
+      "class": "2班",
+      "age": 18,
+      "remarks": "新生代表"
+    },
+    {
+      "id": "009",
+      "name": "李十一",
+      "gender": "女",
+      "class": "4班",
+      "age": 20,
+      "remarks": "国际奥委会志愿者"
+    },
+    {
+      "id": "010",
+      "name": "陈十二",
+      "gender": "男",
+      "class": "4班",
+      "age": 21,
+      "remarks": "英语竞赛获奖者"
+    }
+  ]
+}
+
