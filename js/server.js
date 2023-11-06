@@ -1,7 +1,7 @@
 const jsonServer = require('json-server');
 const cors = require('cors');
 const app = jsonServer.create();
-const router = jsonServer.router('student.json'); // 你的JSON文件
+const router = jsonServer.router('../data/student.json'); // 你的JSON文件
 const middlewares = jsonServer.defaults();
 
 // app.use(cors({
