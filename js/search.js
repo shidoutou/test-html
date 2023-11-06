@@ -19,7 +19,7 @@ $(document).ready(function() {
             '<td>' + student.gender + '</td>' +
             '<td>' + student.class + '</td>' +
             '<td>' + student.age + '</td>' +
-            '<td>' + student.remarks + '</td>' +
+            '<td style="text-align: left;">' + student.remarks + '</td>' +
             '</tr>'
           );
         });

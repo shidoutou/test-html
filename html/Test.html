@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>学生信息表</title>
+    <link rel="stylesheet" type="text/css" href="../css/test.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/filter-menu.js"></script>
+</head>
+<body>
+    <h1 id="title">
+        学生情报
+    </h1>
+    <div>
+        <div class="input-group">
+            <span>姓名：<input type="text"></span>
+            <span>性别：<input type="text"></span>
+        </div>
+        <div class="input-group">
+            <span>学号：<input type="text"></span>
+            <span>班级：<input type="text"></span>
+            <button id="searchBtn">检索</button>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 5%;"><a href="#" id="filter-toggle">︾</a>&nbsp;&nbsp;&nbsp;全选<input type="checkbox" id="selectAll"></th>
+                <th style="width: 5%;">No</th>
+                <th style="width: 10%;">学号</th>
+                <th style="width: 10%;">姓名</th>
+                <th style="width: 10%;">性别</th>
+                <th style="width: 10%;">班级</th>
+                <th style="width: 10%;">年龄</th>
+                <th style="width: auto;text-align: left;">备注</th>
+            </tr>
+        </thead>
+        <tbody id="student-tbody">
+            <!-- <tr>
+                <td><input type="checkbox"></td>
+                <td>1</td>
+                <td>12345</td>
+                <td>xxxxx</td>
+                <td>男</td>
+                <td>123</td>
+                <td>20</td>
+                <td style="text-align: left;">备注1</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>2</td>
+                <td>12345</td>
+                <td>xxxxx</td>
+                <td>女</td>
+                <td>123</td>
+                <td>18</td>
+                <td style="text-align: left;">备注2</td>
+            </tr> -->
+        </tbody>
+    </table>
+    <div id="filter-menu" style="display:none; position:absolute; background-color:#f9f9f9; border:1px solid #ccc; padding:10px;">
+        <div class="filter-option">
+            <label for="name-filter">姓名：</label>
+            <input type="checkbox" id="full-name" name="name" value="full"> Full
+            <input type="checkbox" id="like-name" name="name" value="like"> Like
+        </div>
+        <div class="filter-option">
+            <label for="student-number-filter">学号：</label>
+            <input type="checkbox" id="full-student-number" name="student-number" value="full"> Full
+            <input type="checkbox" id="like-student-number" name="student-number" value="like"> Like
+        </div>
+        <div class="filter-option">
+            <label for="gender-filter">性别：</label>
+            <input type="checkbox" id="male" name="gender" value="male"> 男
+            <input type="checkbox" id="female" name="gender" value="female"> 女
+        </div>
+        <div class="filter-option">
+            <label for="class-filter">班级：</label>
+            <input type="checkbox" id="full-class" name="class" value="full"> Full
+            <input type="checkbox" id="like-class" name="class" value="like"> Like
+        </div>
+        <div class="filter-option">
+            <label for="age-filter">年龄：</label>
+            <input type="checkbox" id="age-greater" name="age" value="greater"> 大于
+            <input type="checkbox" id="age-less" name="age" value="less"> 小于
+            <input type="checkbox" id="age-equal" name="age" value="equal"> 等于
+        </div>
+        <button type="submit">应用过滤</button>
+    </div>
+</body>
+</html>
