@@ -60,15 +60,18 @@
         </tbody>
     </table>
     <div id="filter-menu" style="display:none; position:absolute; background-color:#f9f9f9; border:1px solid #ccc; padding:10px;">
+        <h3 id="selection">过滤设定</h3>
         <div class="filter-option">
             <label for="name-filter">姓名：</label>
             <input type="checkbox" id="full-name" name="name" value="full"> Full
             <input type="checkbox" id="like-name" name="name" value="like"> Like
+            <input type="text" style="float: right;">
         </div>
         <div class="filter-option">
             <label for="student-number-filter">学号：</label>
             <input type="checkbox" id="full-student-number" name="student-number" value="full"> Full
-            <input type="checkbox" id="like-student-number" name="student-number" value="like"> Like
+            <input type="checkbox" id="like-student-number" name="student-number" value="like"> like
+            <input type="text" style="float: right;">
         </div>
         <div class="filter-option">
             <label for="gender-filter">性别：</label>
@@ -79,12 +82,14 @@
             <label for="class-filter">班级：</label>
             <input type="checkbox" id="full-class" name="class" value="full"> Full
             <input type="checkbox" id="like-class" name="class" value="like"> Like
+            <input type="text" style="float: right;">
         </div>
         <div class="filter-option">
             <label for="age-filter">年龄：</label>
             <input type="checkbox" id="age-greater" name="age" value="greater"> 大于
             <input type="checkbox" id="age-less" name="age" value="less"> 小于
             <input type="checkbox" id="age-equal" name="age" value="equal"> 等于
+            <input type="text">
         </div>
         <button type="submit">应用过滤</button>
     </div>

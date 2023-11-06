@@ -39,3 +39,8 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
+#selection {
+  background-color:rgba(0, 225, 255, 0.766);
+}
+
