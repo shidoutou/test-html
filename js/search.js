@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#student-tbody').empty();
     
     $.ajax({
-      url: 'http://192.168.0.6:3000/students',
+      url: 'http://192.168.0.16:3000/students',
       method: 'GET',
       success: function(data) {
         // 循环 students 数组并将数据添加到表格
